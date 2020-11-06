@@ -17,7 +17,7 @@ public class Server
         final  List<Usuario> listUser = new ArrayList<Usuario>();
         final  List<Mensagem>listMsg = new ArrayList<Mensagem>();
         // server is listening on port 5056
-        ServerSocket ss = new ServerSocket(9998);
+        ServerSocket ss = new ServerSocket(10001);
 
         Scanner scn = new Scanner(System.in);
 
